@@ -42,7 +42,9 @@
 
       <div *ngIf="accountService.currentUser$ | async as user">
         <a class="btn btn-link me-2">Welcome {{ user.username }}</a>
-        <a class="btn btn-outline-success me-2">Edit profile</a>
+        <a class="btn btn-outline-success me-2" routerLink="/member/edit"
+          >Edit profile</a
+        >
         <a class="btn btn-outline-success me-2" (click)="logout()">Logout</a>
       </div>
 
