@@ -21,16 +21,12 @@
     "@angular/platform-browser": "~11.1.2",
     "@angular/platform-browser-dynamic": "~11.1.2",
     "@angular/router": "~11.1.2",
-    "@fortawesome/angular-fontawesome": "^0.8.2",
-    "@fortawesome/fontawesome-free": "^5.15.1",
-    "@fortawesome/fontawesome-svg-core": "^1.2.34",
-    "@fortawesome/free-brands-svg-icons": "^5.15.2",
-    "@fortawesome/free-regular-svg-icons": "^5.15.2",
-    "@fortawesome/free-solid-svg-icons": "^5.15.2",
     "@kolkov/ngx-gallery": "^1.2.3",
-    "bootstrap": "^5.0.0-beta2",
-    "mdb-angular-ui-kit": "^1.0.0-alpha3",
+    "bootstrap": "^4.6.0",
+    "bootswatch": "^4.6.0",
+    "font-awesome": "^4.7.0",
     "ng2-file-upload": "^1.4.0",
+    "ngx-bootstrap": "^6.2.0",
     "ngx-spinner": "^10.0.1",
     "ngx-toastr": "^13.2.0",
     "rxjs": "~6.6.0",
@@ -55,5 +51,10 @@
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
     "typescript": "~4.1.2"
-  }
+  },
+  "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.4.",
+  "main": "karma.conf.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
